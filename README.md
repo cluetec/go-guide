@@ -1,5 +1,15 @@
 # Go Guide
 
+
+TODO:
+- Installation
+
+
+## Getting Started
+
+- https://go.dev/tour/
+
+
 ## Tests
 
 - https://quii.gitbook.io/learn-go-with-tests/
