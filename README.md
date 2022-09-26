@@ -28,6 +28,20 @@
 
 - https://www.ribice.ba/golang-memory-savings/
 
+## Orchestration
+
+### Dockerfile
+
+A good example how to use a multi-stage container image for Go application is the [docker-compose-cli container image](https://github.com/docker/compose-cli/blob/main/Dockerfile).
+
+Important regarding performance is to use a cache for all `RUN` commands which are using the Go binary. While `go build` go will use the cache to not rebuild the whole application which increases the performance a lot!
+
+```Dockerfile
+RUN --mount=type=cache,target=/go/pkg/mod \
+    --mount=type=cache,target=/root/.cache/go-build \
+    go mod download
+```
+
 ## Examples
 
 - [Go by example](https://gobyexample.com/)
@@ -40,3 +54,4 @@
 
 - [Awesome-Go](https://awesome-go.com/)
 - [Style Guide from Uber](https://github.com/uber-go/guide/blob/master/style.md)
+
