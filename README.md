@@ -45,6 +45,7 @@ RUN --mount=type=cache,target=/go/pkg/mod \
 ## Examples
 
 - [Go by example](https://gobyexample.com/)
+- [DDD Project](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example)
 
 ## Blogs
 
