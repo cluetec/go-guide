@@ -16,6 +16,11 @@
 - [Project Layout](https://github.com/golang-standards/project-layout/blob/master/README.md)
 - [Design Patterns](https://github.com/tmrts/go-patterns)
 
+### Slices
+
+- <https://ueokande.github.io/go-slice-tricks/>
+- <https://github.com/golang/go/wiki/SliceTricks>
+
 ## Concurrency
 
 - https://github.com/golang/go/wiki/LearnConcurrency
