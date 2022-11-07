@@ -23,15 +23,15 @@
 
 ## Concurrency
 
-- https://github.com/golang/go/wiki/LearnConcurrency
+- <https://github.com/golang/go/wiki/LearnConcurrency>
 
 ## Tests
 
-- https://quii.gitbook.io/learn-go-with-tests/
+- <https://quii.gitbook.io/learn-go-with-tests/>
 
 ## Memory optimization
 
-- https://www.ribice.ba/golang-memory-savings/
+- <https://www.ribice.ba/golang-memory-savings/>
 
 ## Orchestration
 
@@ -47,6 +47,15 @@ RUN --mount=type=cache,target=/go/pkg/mod \
     go mod download
 ```
 
+## Vulnerability Management
+
+```shell
+go install golang.org/x/vuln/cmd/govulncheck@latest
+govulncheck ./...
+```
+
+Source: <https://go.dev/blog/vuln>
+
 ## Examples
 
 - [Go by example](https://gobyexample.com/)
@@ -60,4 +69,3 @@ RUN --mount=type=cache,target=/go/pkg/mod \
 
 - [Awesome-Go](https://awesome-go.com/)
 - [Style Guide from Uber](https://github.com/uber-go/guide/blob/master/style.md)
-
