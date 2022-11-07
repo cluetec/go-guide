@@ -56,6 +56,10 @@ govulncheck ./...
 
 Source: <https://go.dev/blog/vuln>
 
+## Licensing
+
+- [ribice/glice](https://github.com/ribice/glice) - Shows a list with all dependencies and their licenses
+
 ## Examples
 
 - [Go by example](https://gobyexample.com/)
