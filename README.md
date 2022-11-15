@@ -32,6 +32,7 @@
 ## Memory optimization
 
 - <https://www.ribice.ba/golang-memory-savings/>
+- <https://hmarr.com/blog/go-allocation-hunting/>
 
 ## Orchestration
 
