@@ -21,6 +21,50 @@
 - <https://ueokande.github.io/go-slice-tricks/>
 - <https://github.com/golang/go/wiki/SliceTricks>
 
+### Structs
+
+#### Initialization
+
+A good (not the best as it depends on the situation) way to initialize a struct would be by implementing a "Constructor Method" with the required fields for the struct as arguments so that the consumer MUST pass them, and have everything else as optional parameters, which may be skipped.
+
+Source: <https://asankov.dev/blog/2022/01/29/different-ways-to-initialize-go-structs/>
+
+<details>
+  <summary style="cursor: pointer">Expand</summary>
+
+  ```go
+  package people
+
+  // Properties are package privat
+  type Person struct {
+    age    int
+    name   string
+  }
+
+  type PersonOptions struct {
+    Age *int
+  }
+
+  func NewPerson(name string, options *PersonOptions) *Person {
+    p := &Person{name: name}
+    if options == nil {
+      return p
+    }
+    if options.Age != nil && options.Age != 0 {
+      p.age = *options.Age
+    }
+    return p
+  }
+  ///////////////////////////////////////////////
+  package main
+
+  p := people.NewPerson("Anton", &people.PersonOptions{Age: 25})
+  // or
+  p := people.NewPerson("Anton", nil)
+  ```
+
+</details>
+
 ## Concurrency
 
 - <https://github.com/golang/go/wiki/LearnConcurrency>
