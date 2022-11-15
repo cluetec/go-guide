@@ -1,3 +1,5 @@
+<!-- Copyright 2023 cluetec GmbH -->
+
 # Go Guide
 
 ## Getting Started
