@@ -78,6 +78,7 @@ Source: <https://asankov.dev/blog/2022/01/29/different-ways-to-initialize-go-str
 ## Memory optimization
 
 - <https://www.ribice.ba/golang-memory-savings/>
+- <https://hmarr.com/blog/go-allocation-hunting/>
 
 ## Orchestration
 
