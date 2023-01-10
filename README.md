@@ -25,6 +25,8 @@
 
 ### Structs
 
+- [Validator](https://github.com/go-playground/validator) - Package for validating Structs
+
 #### Initialization
 
 A good (not the best as it depends on the situation) way to initialize a struct would be by implementing a "Constructor Method" with the required fields for the struct as arguments so that the consumer MUST pass them, and have everything else as optional parameters, which may be skipped.
@@ -66,6 +68,11 @@ Source: <https://asankov.dev/blog/2022/01/29/different-ways-to-initialize-go-str
   ```
 
 </details>
+
+## JSON un-/marshaling
+
+- [JSON to Go](https://mholt.github.io/json-to-go/)
+- [Validator](https://github.com/go-playground/validator) - Package for validating Structs (and therefor also unmarshaled JSON)
 
 ## Concurrency
 
