@@ -2,6 +2,8 @@
 
 # Go Guide
 
+Here you will find a collection of links, guides and examples to various topics related to Go programming. 
+
 ## Getting Started
 
 - [The Go Tour](https://go.dev/tour)
