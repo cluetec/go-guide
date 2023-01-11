@@ -1,5 +1,5 @@
 <!--
-Copyright 2022-present cluetec GmbH and Contributors
+Copyright 2022-2023 cluetec GmbH and Contributors
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -146,6 +146,6 @@ Source: <https://go.dev/blog/vuln>
 
 ## License
 
-Copyright 2022-present [cluetec GmbH](https://www.cluetec.de/) and Contributors
+Copyright 2022-2023 [cluetec GmbH](https://www.cluetec.de/) and Contributors
 
-The project is free and published under the [Apache License 2.0](./LICENSE).
+The project is licensed under the [Apache License 2.0](./LICENSE).
