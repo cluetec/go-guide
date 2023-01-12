@@ -149,7 +149,7 @@ Source: <https://go.dev/blog/vuln>
 
 If you have a monorepo without using the go workspaces and you open this monorepo in vscode you will see errors in the code like this:
 
-```error
+```plain
 gopls was not able to find modules in your workspace.
 When outside of GOPATH, gopls needs to know which modules you are working on.
 You can fix this by opening your workspace to a folder inside a Go module, or
