@@ -16,7 +16,7 @@ limitations under the License.
 
 # Go Guide
 
-Here you will find a collection of links, guides and examples to various topics related to Go programming. 
+Here you will find a collection of links, guides and examples to various topics related to Go programming.
 
 ## Getting Started
 
@@ -138,6 +138,37 @@ Source: <https://go.dev/blog/vuln>
 ## Blogs
 
 - [The Go Blog](https://go.dev/blog/)
+
+## IDEs / Editor
+
+### Visual-Studio Code (vscode)
+
+#### Open monorepo without `go.work` file
+
+**Problem:**
+
+If you have a monorepo without using the go workspaces and you open this monorepo in vscode you will see errors in the code like this:
+
+```plain
+gopls was not able to find modules in your workspace.
+When outside of GOPATH, gopls needs to know which modules you are working on.
+You can fix this by opening your workspace to a folder inside a Go module, or
+by using a go.work file to specify multiple modules.
+See the documentation for more information on setting up your workspace:
+https://github.com/golang/tools/blob/master/gopls/doc/workspace.md.go
+```
+
+**Solution:**
+
+Those errors can mostly be resolved by adding the following experimental feature flag to your vscode settings:
+
+```json
+{
+    "gopls": {
+        "experimentalWorkspaceModule": true
+    }
+}
+```
 
 ## Further links
 
