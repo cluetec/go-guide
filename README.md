@@ -34,6 +34,7 @@ Here you will find a collection of links, guides and examples to various topics 
 
 - [Project Layout](https://github.com/golang-standards/project-layout/blob/master/README.md)
 - [Design Patterns](https://github.com/tmrts/go-patterns)
+- [Go Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
 
 ### Slices
 
