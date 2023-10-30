@@ -24,6 +24,7 @@ Here you will find a collection of links, guides and examples to various topics 
 - [Effective Go](https://go.dev/doc/effective_go)
 - [Standard Library](https://pkg.go.dev/std)
 - [Go Playground](https://go.dev/play/)
+- [Go Developer Roadmap.sh - Step by step guide to becoming a Go developer in 2023](https://roadmap.sh/golang)
 
 ## Installation
 
