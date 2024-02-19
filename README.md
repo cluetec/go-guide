@@ -180,6 +180,6 @@ Those errors can mostly be resolved by adding the following experimental feature
 
 ## License
 
-Copyright 2022-2023 [cluetec GmbH](https://www.cluetec.de/) and Contributors
+Copyright 2022-2024 [cluetec GmbH](https://www.cluetec.de/) and Contributors
 
 The project is licensed under the [Apache License 2.0](./LICENSE).
