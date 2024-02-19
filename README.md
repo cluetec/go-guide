@@ -138,6 +138,10 @@ Source: <https://go.dev/blog/vuln>
 - [Go by example](https://gobyexample.com/)
 - [DDD Project](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example)
 
+## Kubernetes Operator
+
+- [Kubebuilder Tips and Tricks](https://dev.to/sklarsa/kubebuilder-tips-and-tricks-28jj)
+
 ## Blogs
 
 - [The Go Blog](https://go.dev/blog/)
